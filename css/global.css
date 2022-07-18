@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Fira Sans', Arial, sans-serif;
+    color: #4B4A51;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #4B4A51;
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.semUsuario{
+    background-color: #F4F6FA;
+    font-size: 1.125rem;
+    padding: 20px 30px;
+    color: #4B4A51;
+    text-align: center;
+    padding-top: 150px;
+    display: none;
+}
+
+.semUsuario.active {
+    display: block;
+}
+
+.nada {
+    background-color: #F4F6FA;
+    font-size: 1.125rem;
+    padding: 20px 30px;
+    color: #4B4A51;
+    display: none;
+}
+
+.nada.active {
+    display: block;
+}

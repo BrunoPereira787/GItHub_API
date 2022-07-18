@@ -1,0 +1,41 @@
+.header {
+    background-color: #F4F6FA;
+}
+
+.headerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContainer h1 {
+    font-size: 36px;
+    color: #17161E;
+}
+
+.headerContainer input {
+    max-width: 100%;
+    width: 250px;
+    padding: 8px 10px;
+    outline: none;
+    background-color: #F4F6FA;
+    border: 2px solid #A6B6DF;
+    border-radius: 4px;
+}
+
+.headerContainer input::placeholder {
+    color: #4B4A51;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 500px) {
+    .headerContainer {
+        flex-direction: column;
+        padding: 15px 30px;
+        gap: 10px;
+    }
+
+}
